@@ -1,0 +1,56 @@
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 80px 0;
+}
+
+.footer-container .introduce,
+.history,
+.skill {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   width: 404px;
+   background-color: #f4f5f6;
+}
+
+.footer-container .introduce,
+.history,
+.skill h2 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+   letter-spacing: -0.01em;
+   color: #141416;
+}
+
+.footer-container .introduce,
+.history,
+.skill p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: -0.01em;
+   color: #141416;
+}
+
+.footer-container .content {
+   margin-bottom: 12px;
+}
+
+.footer-container .desc {
+   margin-bottom: 20px;
+}
+
+.footer-container .button {
+   width: 324px;
+   height: 48px;
+   background: #141416;
+   border-radius: 48px;
+   color: #fcfcfd;
+}

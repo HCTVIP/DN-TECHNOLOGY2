@@ -1,0 +1,30 @@
+.home-content {
+   display: flex;
+}
+
+.img-container {
+   width: 100%;
+   height: 400px;
+}
+
+.img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.welcome {
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f5f6;
+}
+.welcome p {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 72px;
+   letter-spacing: -0.01em;
+   color: #141416;
+   margin-left: 40px;
+   width: 433px;
+}
