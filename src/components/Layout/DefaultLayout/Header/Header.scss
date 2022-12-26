@@ -1,42 +1,82 @@
 .header {
    width: 100%;
-   height: 264px;
-   // background-color: #fcfcfd;
+   background-color: #121314;
+   border-bottom: 0.2px solid rgb(73, 72, 72);
+   .content {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: calc(100% - 20px);
+      .logo {
+         transform: rotate(-30deg);
+         width: 43px;
+         height: 60px;
+         margin-left: 80px;
+      }
+
+      .title {
+         margin-left: 26px;
+         color: #fafbff;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         .company {
+            font-weight: 300;
+            font-size: 1.4rem;
+            line-height: 1;
+         }
+         .status {
+            font-size: 0.6rem;
+            line-height: 1.5;
+         }
+      }
+
+      .navbar {
+         margin-left: 144px;
+         display: flex;
+         list-style-type: none;
+         position: relative;
+
+         li a:hover {
+            color: #fafbff;
+         }
+         li a {
+            text-decoration: none;
+            color: #919294;
+            font-size: 1rem;
+            padding: 0 10px;
+            margin: 0 20px;
+         }
+
+         li.active a {
+            color: #fafbff;
+         }
+      }
+
+      .btn {
+         width: 130px;
+         margin-left: 130px;
+      }
+
+      li.active::after {
+         content: '';
+         width: 20px;
+         height: 2px;
+         background-color: #fafbff;
+         display: block;
+         position: absolute;
+         left: 30px;
+         top: 30px;
+      }
+   }
 }
 
-.header-content {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-
-.header-content .logo {
-   margin: 16px 0 13px;
-}
-
-.company {
-   font-size: 20px;
-   font-weight: 700;
-   height: 30px;
-   display: flex;
-   margin-bottom: 8px;
-}
-
-.status {
-   font-size: 10px;
-   line-height: 1;
-   margin-bottom: 26px;
-}
-
-.navbar {
-   display: flex;
-   gap: 100px;
-   font-weight: 600;
-   list-style-type: none;
-}
-
-.navbar a {
-   text-decoration: none;
-   color: var(--primary);
+.header.fixed {
+   position: fixed;
+   top: 0;
+   z-index: 1;
 }

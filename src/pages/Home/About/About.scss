@@ -1,0 +1,109 @@
+.about-content {
+   display: flex;
+   justify-content: space-between;
+   height: calc(100vh - 80px);
+   align-items: center;
+   width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: calc(100% - 20px);
+
+   .content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 50%;
+      margin-left: 20px;
+      .title {
+         background: linear-gradient(224.27deg, #9cff82 70%, #3968f4 98.77%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         text-fill-color: transparent;
+         font-size: 1.4rem;
+      }
+
+      .welcome {
+         font-size: 2.6rem;
+         font-weight: 700;
+         color: #fafbff;
+         font-size: 3.5rem;
+      }
+
+      .desc {
+         color: #e1e2e5;
+         font-size: 1rem;
+         line-height: 1.5;
+         margin-bottom: 40px;
+      }
+
+      .btn + .btn {
+         margin-left: 12px;
+      }
+
+      .group-btn {
+         .btn:hover {
+            background-color: #121314;
+            color: #9cff82;
+            border: 1px solid;
+         }
+      }
+
+      .desc-column {
+         display: flex;
+         gap: 24px;
+         .column-1 {
+            padding-left: 12px;
+            border-left: 2px solid orange;
+            .title-col1 {
+               font-weight: 700;
+               font-size: 1.2rem;
+               line-height: 1.2;
+               display: flex;
+               align-items: center;
+               color: #fafbff;
+               margin-bottom: 12px;
+            }
+
+            .desc-col1 {
+               font-weight: 300;
+               font-size: 1rem;
+               line-height: 1.5;
+               display: flex;
+               align-items: center;
+               color: #e1e2e5;
+            }
+         }
+
+         .column-2 {
+            padding-left: 12px;
+            border-left: 2px solid rgb(252, 123, 3);
+            .title-col2 {
+               font-weight: 700;
+               font-size: 1.2rem;
+               line-height: 1.2;
+               display: flex;
+               align-items: center;
+               color: #fafbff;
+               margin-bottom: 12px;
+            }
+
+            .desc-col2 {
+               font-weight: 300;
+               font-size: 1rem;
+               line-height: 1.5;
+               display: flex;
+               align-items: center;
+               color: #e1e2e5;
+            }
+         }
+      }
+   }
+
+   .img-container {
+      .img {
+         height: 700px;
+         width: 700px;
+      }
+   }
+}

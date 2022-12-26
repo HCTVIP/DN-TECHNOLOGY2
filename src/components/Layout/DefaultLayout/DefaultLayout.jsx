@@ -4,13 +4,17 @@ import Footer from './Footer/Footer';
 import './DefaultLayout.scss';
 const DefaultLayout = ({ children }) => {
    return (
-      <div className="default-layout">
-         <Header />
-         <div className="content-container">
-            {children}
-            <Footer />
+      <>
+         <div className="default-layout" style={{ height: '2000px' }}>
+            <div className="default-content">
+               <Header />
+               <div className="default-children">
+                  {children}
+                  {/* <Footer /> */}
+               </div>
+            </div>
          </div>
-      </div>
+      </>
    );
 };
 

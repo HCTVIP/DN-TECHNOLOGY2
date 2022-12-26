@@ -2,22 +2,28 @@ import './Header.scss';
 
 const Header = () => {
    return (
-      <div className="header">
-         <div className="header-content">
+      <div className="header fixed">
+         <div className="content">
             <img src={require('../../../../assets/img/Union1.png')} alt="logo" className="logo" />
-            <h2 className="company">DANANG TECHNOLOGY</h2>
-            <p className="status">GOOD THING TAKES TIME</p>
+            <div className="title">
+               <h2 className="company">DANANG TECHNOLOGY</h2>
+               <p className="status">GOOD THING TAKES TIME</p>
+            </div>
             <ul className="navbar">
-               <li className="home">
-                  <a href="/">Trang chủ</a>
+               <li className="home active">
+                  <a href="/">Home</a>
                </li>
-               <li className="services">
-                  <a href="services">Dịch vụ</a>
+               <li className="services ">
+                  <a href="services">About</a>
+               </li>
+               <li className="technology">
+                  <a href="contacts">Technology</a>
                </li>
                <li className="contacts">
-                  <a href="contacts">Liên hệ với chúng tôi</a>
+                  <a href="contacts">Contact us</a>
                </li>
             </ul>
+            <button className="btn active">Contact us</button>
          </div>
       </div>
    );
