@@ -1,4 +1,5 @@
 const images = {
+   logo: require('../assets/img/logo.png'),
    line: require('../assets/img/line.png'),
    lineNextPrev: require('../assets/img/lineNextPrev.png'),
    arrow: require('../assets/img/arrow.png'),
@@ -8,6 +9,23 @@ const images = {
    Idea: require('../assets/img/Idea.png'),
    Idea: require('../assets/img/Idea.png'),
    Expertise: require('../assets/img/Expertise.png'),
+   Js: require('../assets/img/Js.png'),
+   react: require('../assets/img/react.png'),
+   GraphQL: require('../assets/img/GraphQL.png'),
+   flutter: require('../assets/img/flutter.png'),
+   swift: require('../assets/img/swift.png'),
+   aws: require('../assets/img/aws.png'),
+   java: require('../assets/img/java.png'),
+   azura: require('../assets/img/azura.png'),
+   googleClound: require('../assets/img/googleClound.png'),
+   kubernetes: require('../assets/img/kubernetes.png'),
+   docker: require('../assets/img/docker.png'),
+   map: require('../assets/img/map.png'),
+   phone: require('../assets/img/phone.png'),
+   mail: require('../assets/img/mail.png'),
+   linkedin: require('../assets/img/linkedin.png'),
+   facebook: require('../assets/img/facebook.png'),
+   instagram: require('../assets/img/instagram.png'),
 };
 
 export default images;

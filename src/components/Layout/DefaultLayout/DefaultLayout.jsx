@@ -10,7 +10,7 @@ const DefaultLayout = ({ children }) => {
                <Header />
                <div className="default-children">
                   {children}
-                  {/* <Footer /> */}
+                  <Footer />
                </div>
             </div>
          </div>

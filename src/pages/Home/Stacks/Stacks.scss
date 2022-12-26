@@ -1,0 +1,171 @@
+.stacks-container {
+   width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: calc(100% - 20px);
+   padding-bottom: 120px;
+   .stacks-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      .title {
+         top: 0;
+         background: linear-gradient(224.27deg, #9cff82 70%, #3968f4 98.77%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         text-fill-color: transparent;
+         font-size: 1.4rem;
+         margin-bottom: 16px;
+      }
+      .desc {
+         color: #fafbff;
+         width: 900px;
+         font-size: 2.5rem;
+         font-weight: 600;
+         text-align: center;
+      }
+   }
+
+   .stack-app {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      .title-app {
+         background: linear-gradient(224.27deg, #9cff82 70%, #3968f4 98.77%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         text-fill-color: transparent;
+         font-size: 1.4rem;
+         margin-bottom: 32px;
+      }
+      .type-language-code {
+         display: flex;
+         gap: 40px;
+         .language-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .language {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 180px;
+               height: 180px;
+               gap: 40px;
+               background-color: #0a0a0a;
+               box-shadow: 0px 4px 40px rgba(9, 9, 12, 0.1);
+               border-radius: 32px;
+               margin-bottom: 16px;
+            }
+            .name-language {
+               font-weight: 600;
+               font-size: 1rem;
+               display: flex;
+               text-align: center;
+               color: #919294;
+            }
+         }
+      }
+   }
+   .stack-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 60px;
+      align-items: center;
+      .title-mobile {
+         background: linear-gradient(224.27deg, #9cff82 70%, #3968f4 98.77%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         text-fill-color: transparent;
+         font-size: 1.4rem;
+         margin-bottom: 32px;
+      }
+
+      .type-language-code {
+         display: flex;
+         justify-content: center;
+         gap: 40px;
+         .language-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .language {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 180px;
+               height: 180px;
+               gap: 40px;
+               background-color: #0a0a0a;
+               box-shadow: 0px 4px 40px rgba(9, 9, 12, 0.1);
+               border-radius: 32px;
+               margin-bottom: 16px;
+            }
+            .name-language {
+               font-weight: 600;
+               font-size: 1rem;
+               display: flex;
+               text-align: center;
+               color: #919294;
+            }
+         }
+      }
+   }
+   .stack-service {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 60px;
+      align-items: center;
+      .title-service {
+         background: linear-gradient(224.27deg, #9cff82 70%, #3968f4 98.77%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         text-fill-color: transparent;
+         font-size: 1.4rem;
+         margin-bottom: 32px;
+      }
+
+      .type-language-code {
+         display: flex;
+         justify-content: center;
+         gap: 40px;
+         .language-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .language {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: 180px;
+               height: 180px;
+               gap: 40px;
+               background-color: #0a0a0a;
+               box-shadow: 0px 4px 40px rgba(9, 9, 12, 0.1);
+               border-radius: 32px;
+               margin-bottom: 16px;
+            }
+            .name-language {
+               font-weight: 600;
+               font-size: 1rem;
+               display: flex;
+               text-align: center;
+               color: #919294;
+            }
+         }
+      }
+   }
+}
