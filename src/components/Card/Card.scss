@@ -2,12 +2,14 @@
    display: flex;
    gap: 32px;
    margin-top: 80px;
+   overflow: hidden;
    .card {
       border: 1px solid #252b5a;
       border-radius: 16px;
       padding: 34px 24px;
-      width: calc(100% / 4);
+      width: calc(100% / 4 - 24px);
       background-color: #17181a;
+      flex-shrink: 0;
       &:hover {
          border: 1px solid #37383d;
       }

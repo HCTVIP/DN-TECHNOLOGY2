@@ -4,7 +4,7 @@ import images from '../../../assets/img';
 const About = () => {
    return (
       <div className="about-content">
-         <img src={images.Frame} />
+         <img src={images.Illustration} />
          <div className="content">
             <h2 className="title">ABOUT DANANG TECHNOLOGY</h2>
             <div className="welcome">

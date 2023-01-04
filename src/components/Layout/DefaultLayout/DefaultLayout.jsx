@@ -5,7 +5,7 @@ import './DefaultLayout.scss';
 const DefaultLayout = ({ children }) => {
    return (
       <>
-         <div className="default-layout" style={{ height: '2000px' }}>
+         <div className="default-layout">
             <div className="default-content">
                <Header />
                <div className="default-children">

@@ -2,6 +2,8 @@ import './Service.scss';
 import images from '../../../assets/img';
 import Card from '../../../components/Card/Card';
 const Service = () => {
+   const handlePrev = () => {};
+   const handleNext = () => {};
    return (
       <div className="service-container">
          <div className="service-header">
@@ -17,18 +19,16 @@ const Service = () => {
                </div>
             </div>
          </div>
-         <div className=" card">
-            <Card />
-            <div className="move-arrow">
-               <div className="prev">
-                  <img src={images.lineNextPrev} alt="line" className="line" />
-                  <img src={images.arrowLeft} alt="arrow" className="arrow" />
-               </div>
-               <div className="next">
-                  <img src={images.lineNextPrev} alt="line" className="line" />
-                  <img src={images.arrowRight} alt="arrow" className="arrow" />
-               </div>
-            </div>
+         <Card />
+         <div className="move-arrow">
+            <button className="prev" onClick={() => handlePrev()}>
+               <img src={images.lineNextPrev} alt="line" className="line" />
+               <img src={images.arrowLeft} alt="arrow" className="arrow" />
+            </button>
+            <button className="next" onClick={() => handleNext()}>
+               <img src={images.lineNextPrev} alt="line" className="line" />
+               <img src={images.arrowRight} alt="arrow" className="arrow" />
+            </button>
          </div>
          <div className="paginate">
             <button className="paginate-circle active"></button>

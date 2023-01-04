@@ -45,4 +45,9 @@ export const card = [
       title: 'Mobile App Development',
       desc: 'We offer mobile app development services & support across many industry verticals. Whether you’re a startup or an industry leader, be sure to get a mobile application fit your requirements.',
    },
+   {
+      icon: require('./assets/img/card/mobile.png'),
+      title: 'Mobile App Development',
+      desc: 'We offer mobile app development services & support across many industry verticals. Whether you’re a startup or an industry leader, be sure to get a mobile application fit your requirements.',
+   },
 ];

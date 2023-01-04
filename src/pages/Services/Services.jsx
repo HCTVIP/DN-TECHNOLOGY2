@@ -1,5 +1,5 @@
-const Services = () => {
-   return <>Service</>;
+const About = () => {
+   return <>About</>;
 };
 
-export default Services;
+export default About;
