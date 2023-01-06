@@ -32,16 +32,15 @@ body {
    border: 1px solid #9cff82;
    color: #9cff82;
    background-color: #121314;
+   &:hover {
+      background-color: #9cff82;
+      color: #121314;
+      border: 1px solid;
+      cursor: pointer;
+   }
 }
 
 .btn.active {
    background-color: #9cff82;
    color: #121314;
-}
-
-.btn:hover {
-   background-color: #9cff82;
-   color: #121314;
-   border: 1px solid;
-   cursor: pointer;
 }

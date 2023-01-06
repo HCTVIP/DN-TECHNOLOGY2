@@ -1,9 +1,15 @@
 import './ModalContact.scss';
-const ModalContact = () => {
+const ModalContact = ({ handleViewModal }) => {
+   const handleClose = () => {
+      handleViewModal();
+   };
    return (
       <>
          <div className="modal-container">
             <div className="modal-contact">
+               <div className="close" onClick={handleClose}>
+                  X
+               </div>
                <h1 className="title">Contact us</h1>
                <p className="desc">Let’s connect together</p>
                <span className="name">Name</span>

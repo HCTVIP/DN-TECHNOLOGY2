@@ -8,7 +8,7 @@ const Content = () => {
                <p className="welcome">Welcome to Danang Technology</p>
                <p className="desc">We work with all types of IT services according to the market demand!</p>
                <div className="group-btn">
-                  <button className="btn btn-contact active">Contact us</button>
+                  <button className="btn btn-contact">Contact us</button>
                   <button className="btn btn-service">Our services</button>
                </div>
             </div>
