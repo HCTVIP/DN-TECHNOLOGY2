@@ -1,11 +1,18 @@
-import images from '../../../../assets/img';
-import './Header.scss';
+import { icons } from '../../../../assets/img';
+import ModalContact from '../../../Modal/ModalContact';
 
-const Header = () => {
+import './Header.scss';
+import { useState } from 'react';
+
+const Header = (props) => {
+   const [viewModal, setViewModal] = useState(false);
+   const handleViewModal = () => {
+      setViewModal(!viewModal);
+   };
    return (
       <div className="header fixed">
          <div className="content">
-            <img src={images.logo} alt="logo" className="logo" />
+            <img src={icons.logo} alt="logo" className="logo" />
             <div className="title">
                <h2 className="company">DANANG TECHNOLOGY</h2>
                <p className="status">GOOD THING TAKES TIME</p>
@@ -14,17 +21,23 @@ const Header = () => {
                <li className="home active">
                   <a href="/">Home</a>
                </li>
+               <li className="about ">
+                  <a href="about">About</a>
+               </li>
                <li className="services ">
-                  <a href="services">About</a>
+                  <a href="services">Services</a>
                </li>
                <li className="technology">
-                  <a href="contacts">Technology</a>
+                  <a href="technology">Technology</a>
                </li>
                <li className="contacts">
                   <a href="contacts">Contact us</a>
                </li>
             </ul>
-            <button className="btn active">Contact us</button>
+            <button onClick={handleViewModal()} className="btn active">
+               Contact us
+            </button>
+            {viewModal && <ModalContact />}
          </div>
       </div>
    );

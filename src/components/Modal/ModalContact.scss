@@ -1,0 +1,56 @@
+.modal-container {
+   .modal-contact {
+      width: 846px;
+      height: 700px;
+      background: #121314;
+      box-shadow: 20px 20px 20px 20px rgba(7, 7, 8, 0.8);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px;
+      position: fixed;
+      top: calc((100vh - 700px) / 2);
+      right: calc((100vw - 846px) / 2);
+      span {
+         font-size: 0.7rem;
+         align-self: start;
+         color: #e1e2e5;
+         margin-bottom: 4px;
+      }
+      .title {
+         font-size: 2.8rem;
+         color: #e1e2e5;
+      }
+      .desc {
+         font-size: 1rem;
+         color: #919294;
+         margin-top: 8px;
+         margin-bottom: 36px;
+      }
+      input {
+         width: 782px;
+         height: 56px;
+         background: #121314;
+         border: 1px solid #37383d;
+         border-radius: 12px;
+         margin-bottom: 44px;
+         color: #37383d;
+         padding: 0 20px;
+      }
+      textarea {
+         width: 782px;
+         height: 92px;
+         background: #121314;
+         border: 1px solid #37383d;
+         border-radius: 12px;
+         color: #37383d;
+         padding: 20px 20px 0;
+      }
+      .btn-form {
+         margin-top: 36px;
+         width: 200px;
+         border-radius: 100px;
+      }
+   }
+}

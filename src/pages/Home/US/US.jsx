@@ -1,9 +1,9 @@
-import './About.scss';
-import images from '../../../assets/img';
+import './US.scss';
+import { images } from '../../../assets/img';
 
-const About = () => {
+const US = () => {
    return (
-      <div className="about-content">
+      <div className="US-content">
          <img src={images.Illustration} />
          <div className="content">
             <h2 className="title">ABOUT DANANG TECHNOLOGY</h2>
@@ -31,4 +31,4 @@ const About = () => {
       </div>
    );
 };
-export default About;
+export default US;

@@ -1,7 +1,7 @@
 import Content from './Content/Content';
 import Service from './Service/Service';
 import './Home.scss';
-import About from './About/About';
+import US from './US/US';
 import Expertise from './Expertise/Expertise';
 import Stacks from './Stacks/Stacks';
 
@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home-container">
          <Content />
          <Service />
-         <About />
+         <US />
          <Expertise />
          <Stacks />
       </div>

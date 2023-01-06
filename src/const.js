@@ -50,4 +50,37 @@ export const card = [
       title: 'Mobile App Development',
       desc: 'We offer mobile app development services & support across many industry verticals. Whether you’re a startup or an industry leader, be sure to get a mobile application fit your requirements.',
    },
+   {
+      icon: require('./assets/img/card/mobile.png'),
+      title: 'Mobile App Development',
+      desc: 'We offer mobile app development services & support across many industry verticals. Whether you’re a startup or an industry leader, be sure to get a mobile application fit your requirements.',
+   },
+   {
+      icon: require('./assets/img/card/mobile.png'),
+      title: 'Mobile App Development',
+      desc: 'We offer mobile app development services & support across many industry verticals. Whether you’re a startup or an industry leader, be sure to get a mobile application fit your requirements.',
+   },
+];
+
+export const coreValue = [
+   {
+      icon: require('./assets/img/corevalue/value-1.svg'),
+      title: 'Trust',
+      desc: "A close-knit community of like-minded individuals, we continue growing and learning from each other to forge a path of success.  Webby's teams have complementary skillsets and friendly internal rivalry that sets the stage to encourage growth and development.",
+   },
+   {
+      icon: require('./assets/img/corevalue/value-2.svg'),
+      title: 'Innovation',
+      desc: "An open-minded working and learning attitude defines Webby's company work ethic. We will always accept new ideas to analyse and upgrade internal practices, ensuring continuous improvement and better results. ",
+   },
+   {
+      icon: require('./assets/img/corevalue/value-3.svg'),
+      title: 'Reliability & Quality',
+      desc: 'We pride ourselves on our reliability and steadfastness even in the face of looming deadlines and hectic schedules. Our work includes multiple and frequent quality checks to prevent even the slightest of errors from going unnoticed - so your product will work as great as it looks. ',
+   },
+   {
+      icon: require('./assets/img/corevalue/value-4.svg'),
+      title: 'Adaptability',
+      desc: 'As an aspiring tech business partner, Webby continues to adapt to new challenges and projects, giving us new ideas and ways to solve any hurdles that may lie ahead for any project we undertake. ',
+   },
 ];

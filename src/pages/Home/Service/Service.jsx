@@ -1,9 +1,20 @@
 import './Service.scss';
-import images from '../../../assets/img';
+import { icons } from '../../../assets/img';
 import Card from '../../../components/Card/Card';
+import { useState } from 'react';
+
 const Service = () => {
-   const handlePrev = () => {};
-   const handleNext = () => {};
+   const [move, setMove] = useState(0);
+   const handleMoveNext = () => {
+      setMove(move - 368);
+   };
+   const handleMovePrev = () => {
+      if (move === 0) {
+         setMove(0);
+      } else {
+         setMove(move + 368);
+      }
+   };
    return (
       <div className="service-container">
          <div className="service-header">
@@ -14,20 +25,20 @@ const Service = () => {
             <div className="navigate">
                <p className="navigate-desc">Explore all services</p>
                <div className="navigate-arrow">
-                  <img src={images.line} alt="line" className="line" />
-                  <img src={images.arrow} alt="arrow" className="arrow" />
+                  <img src={icons.line} alt="line" className="line" />
+                  <img src={icons.arrow} alt="arrow" className="arrow" />
                </div>
             </div>
          </div>
-         <Card />
+         <Card move={move} />
          <div className="move-arrow">
-            <button className="prev" onClick={() => handlePrev()}>
-               <img src={images.lineNextPrev} alt="line" className="line" />
-               <img src={images.arrowLeft} alt="arrow" className="arrow" />
+            <button className="prev" onClick={handleMovePrev}>
+               <img src={icons.lineNextPrev} alt="line" className="line" />
+               <img src={icons.arrowLeft} alt="arrow" className="arrow" />
             </button>
-            <button className="next" onClick={() => handleNext()}>
-               <img src={images.lineNextPrev} alt="line" className="line" />
-               <img src={images.arrowRight} alt="arrow" className="arrow" />
+            <button className="next" onClick={handleMoveNext}>
+               <img src={icons.lineNextPrev} alt="line" className="line" />
+               <img src={icons.arrowRight} alt="arrow" className="arrow" />
             </button>
          </div>
          <div className="paginate">

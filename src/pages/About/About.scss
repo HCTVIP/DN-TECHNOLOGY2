@@ -1,0 +1,39 @@
+.container-about {
+   .content-about {
+      .desc {
+         width: 846px;
+         text-align: center;
+         font-size: 1rem;
+         line-height: 1.4;
+         color: #fafbff;
+         margin: 42px auto;
+      }
+      .about-img {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         gap: 10px;
+         .row {
+            width: 100%;
+            .img {
+               width: calc(100% / 4);
+               object-fit: contain;
+               vertical-align: bottom;
+               padding: 0 5px;
+            }
+         }
+      }
+   }
+   .corevalue {
+      padding-bottom: 120px;
+      .corevalue-desc {
+         margin-top: 60px;
+         font-weight: 700;
+         font-size: 2rem;
+         color: #fafbff;
+         margin-bottom: -40px;
+         text-align: center;
+      }
+   }
+}

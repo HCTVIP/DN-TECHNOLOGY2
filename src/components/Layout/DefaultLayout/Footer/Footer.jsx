@@ -1,5 +1,5 @@
 import './Footer.scss';
-import images from '../../../../assets/img';
+import { icons } from '../../../../assets/img';
 
 const Footer = () => {
    return (
@@ -7,7 +7,7 @@ const Footer = () => {
          <div className="footer-content">
             <div className="introduce">
                <div className="col1">
-                  <img src={images.logo} alt="" className="logo" />
+                  <img src={icons.logo} alt="" className="logo" />
                </div>
                <div className="col2">
                   <h2 className="name">DANANG TECHNOLOGY</h2>
@@ -50,15 +50,15 @@ const Footer = () => {
                <h2 className="title">Contact info</h2>
                <div className="information">
                   <div className="address space">
-                     <img src={images.map} alt="" className="address-icon" />
+                     <img src={icons.map} alt="" className="address-icon" />
                      <div className="">65 Hai Phong, Hai Chau, Danang</div>
                   </div>
                   <div className="phone space">
-                     <img src={images.phone} alt="" className="phone-icon" />
+                     <img src={icons.phone} alt="" className="phone-icon" />
                      <div className="">+84 935 666 999</div>
                   </div>
                   <div className="mail space">
-                     <img src={images.mail} alt="" className="mail-icon" />
+                     <img src={icons.mail} alt="" className="mail-icon" />
                      <div className="">forwork@danangtechnology.com</div>
                   </div>
                </div>
@@ -66,13 +66,13 @@ const Footer = () => {
                   <p className="follow-desc">Follow us</p>
                   <div className="follow-icon">
                      <a href="#!" className="facebook">
-                        <img src={images.facebook} alt="facebook" />
+                        <img src={icons.facebook} alt="facebook" />
                      </a>
                      <a href="#!" className="icon">
-                        <img src={images.linkedin} alt="linkedin" />
+                        <img src={icons.linkedin} alt="linkedin" />
                      </a>
                      <a href="#!" className="icon">
-                        <img src={images.instagram} alt="instagram" />
+                        <img src={icons.instagram} alt="instagram" />
                      </a>
                   </div>
                </div>

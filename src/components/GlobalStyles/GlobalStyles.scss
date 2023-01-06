@@ -29,9 +29,8 @@ body {
    padding: 14px 20px;
    border-radius: 100px;
    font-size: 1rem;
-   border: 1px solid;
+   border: 1px solid #9cff82;
    color: #9cff82;
-   font-weight: 600;
    background-color: #121314;
 }
 
@@ -41,8 +40,8 @@ body {
 }
 
 .btn:hover {
-   background-color: #121314;
-   color: #9cff82;
+   background-color: #9cff82;
+   color: #121314;
    border: 1px solid;
    cursor: pointer;
 }

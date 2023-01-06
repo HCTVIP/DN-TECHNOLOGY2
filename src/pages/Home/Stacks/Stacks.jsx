@@ -1,6 +1,5 @@
 import './Stacks.scss';
-import images from '../../../assets/img';
-import Card from '../../../components/Card/Card';
+import { images } from '../../../assets/img';
 const Stacks = () => {
    return (
       <div className="stacks-container">
